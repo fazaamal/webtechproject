@@ -1,14 +1,12 @@
 #header{
   background-color: rgba(159,197,248,255);
-  height: 550px;
+  height: 450px;
+  clear: both;
 }
 
 .smlogos{
   margin-left: 10px;
-}
-
-#nav{
-  float:left;
+  margin-top: 10px;
 }
 
 #headerlogo{
@@ -17,4 +15,31 @@
   margin-right: auto;
   position: relative;
   bottom: 140px;
+}
+
+#navigationbar{
+  background-color: rgba(159,197,248,255);
+  height: 150px;
+}
+
+#navigationbar ul{
+  list-style-type: none;
+  font-family: sans-serif;
+
+  padding: 0;
+  overflow: hidden;
+  width: 50%;
+  margin: auto;
+}
+
+#navigationbar ul li{
+  float:left;
+  font-size: 80px;
+  margin-left: 20px;
+  padding-right: 20px;
+  border-right: 1px solid white;
+}
+
+#navigationbar ul li a{
+  text-decoration: none;
 }
