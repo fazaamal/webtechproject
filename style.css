@@ -6,8 +6,7 @@
 }
 
 .smlogos{
-  margin-left: 10px;
-  margin-top: 10px;
+  margin: 25px;
 }
 
 #headerlogo{
@@ -15,7 +14,7 @@
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  bottom: 140px;
+  bottom: 175px;
 }
 
 /* Navigation bar */
