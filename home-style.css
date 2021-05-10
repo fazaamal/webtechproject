@@ -59,6 +59,7 @@ body{
 
 #navigationbar ul li a{
   text-decoration: none;
+  font-size: 1.3vw;
   color: black;
 }
 
