@@ -132,6 +132,21 @@ body{
   background-color: white;
 }
 
+.box p{
+  display: inline-block;
+  float: left;
+  font-size: 1.7vw;
+  padding-left: 5%;
+}
+
+.box img{
+  display: inline-block;
+  float: right;
+  height: 100%;
+  left: 5%;
+  border-radius: 21px;
+}
+
 #box1{
   margin-left: 3%;
   margin-right: 3%;
