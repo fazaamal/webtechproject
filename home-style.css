@@ -94,11 +94,9 @@ body{
 
 /* Content */
 
-
 #content{
   background-color:rgb(232, 226, 226);
   width: 100%;
-
 }
 
 #banner{
@@ -107,6 +105,16 @@ body{
   margin-left: 2.5%;
   margin-right: 2.5%;
   margin-top: 25px;
+}
+
+.container button{
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  width: 10%;
+  height: 5%;
+  font-size: 1.5vw;
+  transform: translateX(-50%);
 }
 
 #welcome{
@@ -137,6 +145,7 @@ body{
   float: left;
   font-size: 1.9vw;
   padding-left: 5%;
+  color: black;
 }
 
 .box img{
