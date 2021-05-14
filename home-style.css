@@ -135,7 +135,7 @@ body{
 .box p{
   display: inline-block;
   float: left;
-  font-size: 1.7vw;
+  font-size: 1.9vw;
   padding-left: 5%;
 }
 
@@ -143,6 +143,7 @@ body{
   display: inline-block;
   float: right;
   height: 100%;
+  width: 35%;
   left: 5%;
   border-radius: 21px;
 }
@@ -150,7 +151,6 @@ body{
 #box1{
   margin-left: 3%;
   margin-right: 3%;
-
 }
 
 #box2{
