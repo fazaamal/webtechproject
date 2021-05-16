@@ -1,0 +1,115 @@
+body{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  background-color:rgb(232, 226, 226);
+  font-family: sans-serif;
+}
+
+/*  Header */
+
+#header{
+  background-color: rgba(159,197,248,255);
+  height: 105px;
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.smlogos{
+  margin: 7px;
+}
+
+#headerlogo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  bottom: 55px;
+}
+
+/* Navigation bar */
+
+#navigationbar{
+  background-color: rgba(159,197,248,255);
+  height: 36px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+}
+
+#navigationbar ul{
+  list-style-type: none;
+  font-family: sans-serif;
+  margin: auto;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-54%);
+}
+
+#navigationbar ul li{
+  float:left;
+  font-size: 20px;
+  padding: 5px;
+  border-right: 1px solid black;
+}
+
+#navigationbar ul li a{
+  text-decoration: none;
+  font-size: 1.3vw;
+  color: black;
+}
+
+#navigationbar ul #firstel{
+  border-left: 1px solid black;
+}
+
+/* Footer */
+
+#footer{
+  background-color: rgba(159,197,248,255);
+  height: 140px;
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+}
+
+#footer table{
+  height: 100%;
+  margin-left: 4%;
+  margin-right: 4%;
+
+}
+
+#footer a, .bold{
+  text-decoration: none;
+  color: black;
+  font-size: 1.3vw;
+}
+
+/* Content */
+
+#content{
+  background-color: #dae4f0;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 3px;
+  padding-bottom:3px;
+}
+
+.listings{
+  margin: 2%;
+  border-radius: 25px;
+  border: 4px solid black;
+  background-color: white;
+}
+
+.listings h2, .listings p{
+  margin-left: 2%;
+}

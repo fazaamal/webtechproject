@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html>
 <head>
-  <title>Home</title>
-  <meta name="Home page">
+  <title>Bookings</title>
+  <meta name="Bookings">
 </head>
-<link rel="stylesheet" href="home-style.css">
+<link rel="stylesheet" href="booking-style.css">
+<style>
+
+</style>
 
 <body>
-
   <div id="header">
     <a href="http://instagram.com"><img class="smlogos" src="images/ig.png" width=40px height=40px></a>
     <a href="http://facebook.com"><img class="smlogos" src="images/fb.png" width=40px height=40px></a>
@@ -23,53 +24,49 @@
       <li id="firstel"><a class="active" href="home.html">Home</a></li>
       <li class="nav"><a href="">Places To Visit</a></li>
       <li class="nav"><a href="">Events</a></li>
-      <li class="nav"><a href="booking.html">Book A Holiday</a></li>
+      <li class="nav"><a href="">Book A Holiday</a></li>
       <li class="nav"><a href="">About Us</a></li>
       <li class="nav"><a href="">Contact Us</a></li>
     </ul>
   </div>
 
   <div id="content">
-    <div class="container">
-      <img id="banner" src="images/banner.jpg" >
-      <div id="welcome">Welcome to Malaysia!</div>
-      <button type="button">Explore!</button>
+    <div class="listings" id="listing1">
+      <h2 class="listing-title">Sunway Lagoon</h2>
+      <p class="listing-details">
+        Price: RM600<br/>
+        Duration: 3 days 2 night(s)<br/>
+        Pax: 2 adults 3 children
+      </p>
     </div>
 
-    <div class="links">
-      <a href="">
-      <div class="box" id="box1">
-        <p>Take a peek at the natural<br/>
-          beauties of Malaysia!</p>
-        <img src="images/waterfall.jpg">
-      </div>
-      </a>
-
-      <a href="">
-      <div class="box" id="box2">
-        <p>Donate to save the<br/>
-          wildlife of Malaysia!</p>
-        <img src="images/tiger.jpg">
-      </div>
-      </a>
-
-      <a href="">
-      <div class="box" id="box3">
-        <p>View the amazing<br/>
-          city skylines!</p>
-        <img src="images/skyline.jpg">
-      </div>
-      </a>
-
-      <a href="">
-      <div class="box" id="box4">
-        <p>Book your next holiday<br/>
-          here with amazing deals!</p>
-        <img src="images/waterpark.jpg">
-      </div>
-      </a>
-
+    <div class="listings" id="listing2">
+      <h2 class="listing-title">Petronas Twin Towers</h2>
+      <p class="listing-details">
+        Price: RM1500<br/>
+        Duration: 2 days 1 night(s)<br/>
+        Pax: 2 adults 2 children
+      </p>
     </div>
+
+    <div class="listings" id="listing3">
+      <h2 class="listing-title">Pangkor Island</h2>
+      <p class="listing-details">
+        Price: RM800<br/>
+        Duration: 4 days 3 night(s)<br/>
+        Pax: 2 adults 4 children
+      </p>
+    </div>
+
+    <div class="listings" id="listing4">
+      <h2 class="listing-title">Genting Highlands</h2>
+      <p class="listing-details">
+        Price: RM500<br/>
+        Duration: 2 days 1 night(s)<br/>
+        Pax: 2 adults 2 children
+      </p>
+    </div>
+
   </div>
 
   <div id="footer">
@@ -104,8 +101,4 @@
       </tr>
     </table>
   </div>
-
-
 </body>
-
-</html>
