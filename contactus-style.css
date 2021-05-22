@@ -184,15 +184,13 @@ body{
 } */
 
 #smlinks{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  transform: translateX(-50%);
+  width: 60%;
+  margin: auto;
 }
 
 #box2 img{
   position: inherit;
-  width: auto;
+  width: 30%;
   height: 90px;
   margin-left: 10px;
 }
