@@ -173,3 +173,10 @@ body{
 
 #box4{
 }
+
+#Placestovisit{
+  text-align: center;
+  font-family: sans-serif;
+  color: green;
+  font-style: italic;
+}
