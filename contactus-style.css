@@ -1,0 +1,239 @@
+
+body{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  background-color:rgb(232, 226, 226);
+  font-family: sans-serif;
+}
+
+/*  Header */
+
+#header{
+  background-color: rgba(159,197,248,255);
+  height: 105px;
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.smlogos{
+  margin: 7px;
+}
+
+#headerlogo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  bottom: 55px;
+}
+
+/* Footer */
+
+#footer{
+  background-color: rgba(159,197,248,255);
+  height: 140px;
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+}
+
+#footer table{
+  height: 100%;
+  margin-left: 4%;
+  margin-right: 4%;
+
+}
+
+#footer a, .bold{
+  text-decoration: none;
+  color: black;
+  font-size: 1.3vw;
+}
+
+/* Navigation bar */
+
+#navigationbar{
+  background-color: rgba(159,197,248,255);
+  height: 36px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+}
+
+#navigationbar ul{
+  list-style-type: none;
+  font-family: sans-serif;
+  margin: auto;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-54%);
+}
+
+#navigationbar ul li{
+  float:left;
+  font-size: 20px;
+  padding: 5px;
+  border-right: 1px solid black;
+}
+
+#navigationbar ul li a{
+  text-decoration: none;
+  font-size: 1.3vw;
+  color: black;
+}
+
+#navigationbar ul #firstel{
+  border-left: 1px solid black;
+}
+
+/* Content */
+
+#content{
+  background-color:rgb(232, 226, 226);
+  width: 100%;
+}
+
+#banner{
+  width: 95%;
+  height: 500px;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-top: 25px;
+}
+
+.container button{
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  width: 10%;
+  height: 5%;
+  font-size: 1.5vw;
+  transform: translateX(-50%);
+}
+
+#welcome{
+  font-family: sans-serif;
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 350px;
+  transform: translateX(-50%);
+  font-size: 50px;
+  color: white;
+}
+
+
+.box{
+  width: 45%;
+  height: 150px;
+  margin-top: 30px;
+  box-sizing: border-box;
+  float: left;
+  border-radius: 25px;
+  border: 4px solid black;
+  background-color: white;
+}
+
+.box p{
+  display: inline-block;
+  float: left;
+  font-size: 1.9vw;
+  padding-left: 5%;
+  color: black;
+}
+
+.box img{
+  display: inline-block;
+  float: right;
+  height: 100%;
+  width: 35%;
+  left: 5%;
+  border-radius: 21px;
+}
+
+.box #detailscontainer{
+  display: inline-block;
+  float: right;
+  height: 100%;
+  width: 50%;
+  left: 5%;
+  border-radius: 21px;
+}
+
+.details{
+  display: block;
+  margin-top: 2px;
+  clear: both;
+}
+
+.box h2{
+  text-align: center;
+}
+
+/* #smlinks{
+  width: inherit;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+} */
+
+#smlinks{
+  width: 60%;
+  margin: auto;
+}
+
+#box2 img{
+  position: inherit;
+  width: 30%;
+  height: 90px;
+  margin-left: 10px;
+}
+
+#detailscontainer p{
+  text-align: left;
+  width: 30%;
+  border: 3px solid black;
+  position: absolute;
+  left: 62%;
+  padding-left: 10px;
+  font-size: 1.2vw;
+  float: left;
+}
+
+#detailscontainer img{
+  float: left;
+  height:65px;
+  width: auto;
+}
+
+#gmail{
+  position: relative;
+  transform: translateX(-40px);
+}
+
+#box1{
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+#box2{
+  height: 330px;
+  margin-bottom: 2%;
+}
+
+#box3{
+  position: absolute;
+  transform: translateY(120%);
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-bottom: 2%;
+}
+
+#box4{
+}
