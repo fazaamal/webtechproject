@@ -8,6 +8,13 @@ body{
   font-family: sans-serif;
 }
 
+#body1{
+//  background-image: url("C:/Users/HP/github/webtechproject/images/Background_img2.jpg");
+  background-image: url("https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569__480.jpg");
+  background-position: center;
+  background-repeat: repeat;
+  background-attachment: scroll;
+}
 
 /*  Header */
 
@@ -173,4 +180,11 @@ body{
 }
 
 #box4{
+}
+
+#Placestovisit{
+  text-align: center;
+  font-family: sans-serif;
+  color: green;
+  font-style: italic;
 }
