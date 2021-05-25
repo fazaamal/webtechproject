@@ -95,6 +95,17 @@ body{
 
 /* Content */
 
+.textbox{
+  width: 50%;
+  height: 100px;
+  box-sizing: border-box;
+  border-radius: 25px;
+  border: 2px solid ;
+  background-color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
 #content{
   background-color:rgb(232, 226, 226);
   width: 100%;
@@ -237,7 +248,7 @@ body{
 #Placestovisit {
   text-align: center;
   font-family: sans-serif;
-  color: Yellow;
+  color: gray;
   font-style: italic;
 }
 
