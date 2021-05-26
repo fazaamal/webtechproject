@@ -97,7 +97,7 @@ body{
 
 .textbox{
   width: 50%;
-  height: 100px;
+  height: auto;
   box-sizing: border-box;
   border-radius: 25px;
   border: 2px solid ;
@@ -105,6 +105,11 @@ body{
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: auto;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
 
 #content{
   background-color:rgb(232, 226, 226);
@@ -254,19 +259,19 @@ body{
 }
 
 #Place1{
- text-align: center;
+ text-align: justify;
 }
 
 #Place2{
- text-align: center;
+ text-align: justify;
 }
 
 #Place3{
- text-align: center;
+ text-align: justify;
 }
 
 #Place4{
- text-align: center;
+ text-align: justify;
 }
 
  #Places_1{
