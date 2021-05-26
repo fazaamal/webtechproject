@@ -301,3 +301,11 @@ body{
    color: green;
    font-style: italic;
  }
+
+#map{
+  width: 50%;
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

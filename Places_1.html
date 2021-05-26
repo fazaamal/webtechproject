@@ -41,9 +41,24 @@
       varities of activities that will suit kids of all ages.<br>
       It is very exciting place to hangout with groups.<br>
       It has many events that can take you throughout day.
-
-
     </div>
+    <h3> Google Maps </h3>
+    <!--The div element for the map -->
+    <div id="map">
+       <script>
+         function initMap(){
+           let SunwayLagoon = {lat:3.0716192775704187, lng:101.60546383134604};
+           let map = new google.maps.Map(
+             document.getElementById('map'), {zoom: 4, center: SunwayLagoon}
+           );
+           let marker =new google.maps.Marker({position: SunwayLagoon, map: map});
+
+         }
+       </script>
+    </div>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA79KFenw18sAEVftJNadIdOuaM9CQaHKo&callback=initMap&libraries=&v=weekly"
+      ></script>
+
     <hr>
     <div id="footer">
       <table>

@@ -39,9 +39,25 @@
       The popular theme park and hill resort is home to a 4D Cinema,
       world-class casino (for western), a splash pool and plenty of games and
       rides, including Southeast Asia's fastest and longest cable car.
-      
+
 
     </div>
+    <h3> Google Maps </h3>
+    <!--The div element for the map -->
+    <div id="map">
+       <script>
+         function initMap(){
+           let GentingHighland = {lat:3.4355731951141966, lng:101.79700139398877};
+           let map = new google.maps.Map(
+             document.getElementById('map'), {zoom: 4, center: GentingHighland}
+           );
+           let marker =new google.maps.Marker({position: GentingHighland, map: map});
+
+         }
+       </script>
+    </div>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA79KFenw18sAEVftJNadIdOuaM9CQaHKo&callback=initMap&libraries=&v=weekly"
+      ></script>
     <hr>
     <div id="footer">
       <table>

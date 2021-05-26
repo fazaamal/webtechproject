@@ -41,6 +41,23 @@
       building with measurement 508 metres tall.
 
     </div>
+    <h3> Google Maps </h3>
+    <!--The div element for the map -->
+    <div id="map">
+       <script>
+         function initMap(){
+           let TwinTower = {lat:3.1635795708715246, lng:101.71152835687177};
+           let map = new google.maps.Map(
+             document.getElementById('map'), {zoom: 4, center: TwinTower}
+           );
+           let marker =new google.maps.Marker({position: TwinTower, map: map});
+
+         }
+       </script>
+    </div>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA79KFenw18sAEVftJNadIdOuaM9CQaHKo&callback=initMap&libraries=&v=weekly"
+      ></script>
+
     <hr>
     <div id="footer">
       <table>

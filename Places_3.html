@@ -46,6 +46,22 @@
 
 
     </div>
+    <h3> Google Maps </h3>
+    <!--The div element for the map -->
+    <div id="map">
+       <script>
+         function initMap(){
+           let PangkorIsland = {lat:4.229961415728854, lng:100.5577229693855};
+           let map = new google.maps.Map(
+             document.getElementById('map'), {zoom: 4, center: PangkorIsland}
+           );
+           let marker =new google.maps.Marker({position: PangkorIsland, map: map});
+
+         }
+       </script>
+    </div>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA79KFenw18sAEVftJNadIdOuaM9CQaHKo&callback=initMap&libraries=&v=weekly"
+      ></script>
     <hr>
     <div id="footer">
       <table>
