@@ -123,18 +123,19 @@ h3{
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 10px;
+}
 
-.content{
+#container{
   background-color: #dae4f0;
   margin-left: 2.5%;
   margin-right: 2.5%;
-  margin-top: 5px;
+  margin-top: 20px;
   margin-bottom: 20px;
+  padding-top: 3px;
+  padding-bottom:3px;
   clear: both;
 }
 
-
-}
 .box p{
   display: inline-block;
   float: left;
