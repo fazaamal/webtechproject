@@ -95,6 +95,10 @@ body{
 
 /* Content */
 
+h3{
+  text-align: center;
+}
+
 .textbox{
   width: 50%;
   height: auto;
@@ -116,17 +120,7 @@ body{
   width: 100%;
 }
 
-.box{
-  width: 50%;
-  height: auto;
-  margin-top: auto;
-  margin-bottom: inherit;
-  box-sizing: border-box;
-  float: left;
-  border-radius: 25px;
-  border: 4px solid black;
-  background-color: white;
-}
+
 
 }
 .box p{
@@ -140,7 +134,7 @@ body{
 .box img{
   display: inline-block;
   float: right;
-  height: auto;
+  height: 205px;
   width: 50%;
   left: 10%;
   border-radius: 21px;
@@ -167,7 +161,7 @@ body{
   height: 500px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 25px;
+  margin-bottom: 25px;
   display: block;
   box-sizing: border-box;
   border: 10px solid black;
@@ -196,7 +190,7 @@ body{
 }
 
 #img_4{
-  width: 50%;
+  width: 45%;
   height: 500px;
   margin-left: auto;
   margin-right: auto;
@@ -206,48 +200,32 @@ body{
   border: 10px solid black;
 }
 
-#box1{
-  width: 50%;
-  height: auto;
-  margin-top: auto;
+.box{
+  width: 45%;
+  height: 250px;
+  margin-top: 30px;
   box-sizing: border-box;
   float: left;
   border-radius: 25px;
   border: 4px solid black;
   background-color: white;
+}
+
+#box1{
+  margin-left: 2.5%;
 }
 
 #box2{
-  width: 50%;
-  height: auto;
-  margin-top: auto;
-  box-sizing: border-box;
-  float: right;
-  border-radius: 25px;
-  border: 4px solid black;
-  background-color: white;
+  margin-left: 5%;
 }
 
 #box3{
-  width: 50%;
-  height: auto;
-  margin-top: auto;
-  box-sizing: border-box;
-  float: left;
-  border-radius: 25px;
-  border: 4px solid black;
-  background-color: white;
+  margin-left: 2.5%;
 }
 
 #box4{
-  width: 50%;
-  height: auto;
-  margin-top: auto;
-  box-sizing: border-box;
-  float: right;
-  border-radius: 25px;
-  border: 4px solid black;
-  background-color: white;
+  margin-left: 5%;
+  margin-bottom: 2.5%;
 }
 
 #Placestovisit {
