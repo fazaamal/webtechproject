@@ -31,6 +31,14 @@ body{
   bottom: 55px;
 }
 
+#contactus{
+  width: 10%;
+  height: auto;
+  float: right;
+  position: absolute;
+  top: 7px;
+  right: 7px;
+}
 /* Footer */
 
 #footer{

@@ -115,11 +115,14 @@ h3{
   padding-right: 10px;
   padding-top: 10px;
 
-#content{
-  background-color:rgb(232, 226, 226);
-  width: 100%;
+.content{
+  background-color: #dae4f0;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  clear: both;
 }
-
 
 
 }
@@ -198,6 +201,10 @@ h3{
   display: block;
   box-sizing: border-box;
   border: 10px solid black;
+}
+
+.details{
+  margin-left: 3%;
 }
 
 .box{
