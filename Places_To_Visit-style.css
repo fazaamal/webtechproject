@@ -31,6 +31,15 @@ body{
   bottom: 55px;
 }
 
+#contactus{
+  width: 10%;
+  height: auto;
+  float: right;
+  position: absolute;
+  top: 7px;
+  right: 7px;
+}
+
 /* Footer */
 
 #footer{
@@ -135,13 +144,13 @@ h3{
 }
 
 .box img{
-  display: inline-block;
+  position: relative;
+  margin-top: 0;
+  transform: translateY(-41px);
   float: right;
-  height: 205px;
+  height: 242px;
   width: 50%;
-  left: 10%;
   border-radius: 21px;
-
 }
 
 #body1{
@@ -205,6 +214,7 @@ h3{
 
 .details{
   margin-left: 3%;
+  float: left;
 }
 
 .box{
