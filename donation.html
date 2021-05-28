@@ -1,114 +1,79 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-.container {
-  position: relative;
-  width: 100%;
-  max-width: 400px;
-}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Donations</title>
+  </head>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/donation.css">
+  <body>
+    <div id="header">
+      <a href="http://instagram.com"><img class="smlogos" src="images/ig.png" width=40px height=40px></a>
+      <a href="http://facebook.com"><img class="smlogos" src="images/fb.png" width=40px height=40px></a>
+      <a href="http://youtube.com"><img class="smlogos" src="images/yt.png" width=40px height=40px></a>
 
-.container img {
-  width: 100%;
-  height: auto;
-  float:
-}
+      <a href="home.html">
+        <img src="images/logo.png" id="headerlogo" width="250px" height="100px">
+      </a>
 
-.container .btn {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #555;
-  color: white;
-  font-size: 16px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  text-align: center;
-}
-
-.container .btn:hover {
-  background-color:  yellow;
-}
-
-.p{
-
-float: right;
-}
-
-p.dotted {border-style: solid; width: 200px;height: 50px;
-text-align: center; border-color:  #AEB6BF;
-}
-.i{
-float: left;
-}
-.k{
-float: right;
-}
-.l{
-float:bottom- down;}
-.h{float: middle;}
-</style>
-</head>
-<body>
-
-<div class="container">
-  <img src="img_snow.jpg" alt="Snow" style="width:100%">
-  <button class="btn">Register Now</button>
-</div>
-
-<div class= "p">
-<form action="/action_page.php">
-  <select id="cars" name="cars">
- <option value="Yearly">Yearly</option>
-    <option value="Monthly">Monthly</option>
-    <option value="Weekly">Weekly</option>
-  </select>
-</form><br>
-<form action="/action_page.php">
-  <select id="cars" name="cars">
-    <option value="00">100 RM</option>
-    <option value="50">50 RM</option>
-    <option value="30">30 RM</option>
-  </select>
-</form><br>
-<form action="/action_page.php">
-  <select id="cars" name="cars">
-    <option value="payment">Visa-Card</option>
-    <option value="master-card">Mastercard</option>
-  </select>
-</form><br>
-  <input type="Button" value="Donation">
-
-</div>
+      <a href="contactus.html">
+        <img src="images/contactusicon.png" id="contactus" width="250px" height="100px">
+      </a>
+    </div>
 
 
-<br><br>
-<br><br>
-<br><br>
-<br><br>
-<br><br>
-<br><br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<div class="l">
-<div class= "i">
+    <div id="navigationbar">
+      <ul>
+        <li id="firstel"><a class="active" href="home.html">Home</a></li>
+        <li class="nav"><a href="Places_To_Visit.html">Places To Visit</a></li>
+        <li class="nav"><a href="booking.html">Book A Holiday</a></li>
+        <li class="nav"><a href="events.html">Events</a></li>
+      </ul>
+    </div>
 
-<p class="dotted">Campaign</p>
-<p class="dotted">Donors</p>
-</div>
-<div class="k">
-<p class="dotted">Your Donate Will Provide</p>
-<p class="dotted">Reports</p>
-</div>
-</div>
-</body>
+    <div id="content">
+      <div id="video">
+        <video width="60%" height="auto" src="videos/endangered.mp4" controls>
+      </div>
+
+      <div id="form">
+        <h2 id="form-header">Donation Form</h2>
+        <form>
+          <input type="text" name="name">
+        </form>
+      </div>
+    <div id="footer">
+      <table>
+        <tr>
+          <td rowspan="3" width="30%">
+            <img src="images/logo.png" width="70%">
+          </td>
+          <td width = "25%"><a href=""><strong>Contact Us</strong></a></td>
+          <td class="bold" width="20%"><strong>Getting to Malaysia</strong></td>
+          <td class="bold"><strong>Follow Us</strong></td>
+        </tr>
+
+        <tr>
+          <td><a href=""><strong>About Us</strong></a></td>
+          <td>
+            <a href="http://airasia.com">Flights</a> <br>
+
+          </td>
+          <td rowspan="2">
+            <a href="http://instagram.com"><img class="smlogos" src="images/ig.png" width=40px height=40px></a>
+            <a href="http://facebook.com"><img class="smlogos" src="images/fb.png" width=40px height=40px></a>
+            <a href="http://youtube.com"><img class="smlogos" src="images/yt.png" width=40px height=40px></a>
+          </td>
+        </tr>
+
+        <tr>
+          <td><a href=""><strong>Events</strong></a></td>
+          <td>
+            <a href="https://www.roughguides.com/malaysia/getting-around/#:~:text=Public%20transport%20in%20Malaysia%20is,connect%20Peninsular%20and%20east%20Malaysia.">Getting Around</a>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+  </body>
 </html>
