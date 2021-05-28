@@ -75,5 +75,19 @@
   padding: 10px;
 }
 .buttons p{
+  displa: inline-block;
   font-size: 20px;
+  padding-bottom: : 40px;
+}
+
+#button1{
+
+}
+
+#button2{
+
+}
+
+#button3{
+
 }
