@@ -32,16 +32,56 @@
     </div>
 
     <div id="content">
-      <div id="video">
-        <video width="60%" height="auto" src="videos/endangered.mp4" controls>
-      </div>
+      <h1 style="text-align:center">Wildlife Donation</h1>
+      <p style="text-align:center">Support the endangered animals of Malaysia!</p>
 
-      <div id="form">
-        <h2 id="form-header">Donation Form</h2>
-        <form>
-          <input type="text" name="name">
-        </form>
+      <div id="container">
+        <div id="video-container">
+          <video src="videos/endangered.mp4" controls>
+        </div>
+
+        <div id="form-container">
+          <h2 id="form-header" style="text-align:center">Donation Form</h2>
+          <form>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name"><br>
+
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email"><br>
+
+            <label for="amount">Amount (MYR)</label>
+            <input type="text" name="amount" id="amount">
+
+            <label for="frequency">Frequency</label>
+            <select id="frequency" name="frequency">
+              <option value="once">One-time</option>
+              <option value="month">Monthly</option>
+              <option value="year">Yearly</option>
+            </select><br>
+
+            <label for="card">Card type</label>
+            <select id="card" name="card">
+              <option value="visa">Visa</option>
+              <option value="master">Mastercard</option>
+              <option value="america">American Express</option>
+            </select><br>
+
+            <label for="number">Card Number</label>
+            <input type="text" name="number" id="number"><br>
+
+            <label for="month">Expiry Date</label>
+            <input class="date" type="text" name="month' id="month"> /
+            <input class= "date" type="text" name="year" id="year"><br>
+
+            <label for="cvv">CVV/CVV2</label>
+            <input class="date" type="text" name="cvv" id="cvv"><br>
+
+            <input type="submit">
+          </form>
+        </div>
       </div>
+    </div>
+
     <div id="footer">
       <table>
         <tr>
@@ -75,5 +115,15 @@
       </table>
     </div>
 
+    <script type="text/javascript">
+      var videoHeight = document.getElementById('video-container').style.height;
+      var formHeight = document.getElementById('form-container').style.height;
+
+      if(videoHeight<formHeight){
+        document.getElementById('video-container').style.height = formHeight;
+      }else{
+        document.getElementById('form-container').style.height = videoHeight;
+      }
+    </script>
   </body>
 </html>
