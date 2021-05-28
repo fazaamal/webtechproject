@@ -39,6 +39,11 @@ body{
   right: 7px;
 }
 
+#contactus:hover{
+  width:11%;
+  height: auto;
+}
+
 /* Footer */
 
 #footer{
