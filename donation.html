@@ -4,8 +4,12 @@
     <meta charset="utf-8">
     <title>Donations</title>
   </head>
-  <link rel="stylesheet" href="styles/style.css">
-  <link rel="stylesheet" href="styles/donation.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/donation.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
   <body>
     <div id="header">
       <a href="http://instagram.com"><img class="smlogos" src="images/ig.png" width=40px height=40px></a>
@@ -43,15 +47,15 @@
 
         <div id="form-container">
           <h2 id="form-header" style="text-align:center">Donation Form</h2>
-          <form method="post">
+          <form method="post" id="form">
             <label for="name">Name</label>
-            <input type="text" name="name" id="name"><br>
+            <input type="text" name="name" id="name" required><br>
 
             <label for="email">Email</label>
-            <input type="text" name="email" id="email"><br>
+            <input type="text" name="email" id="email" required><br>
 
             <label for="amount">Amount (MYR)</label>
-            <input type="text" name="amount" id="amount">
+            <input type="text" name="amount" id="amount" required>
 
             <label for="frequency">Frequency</label>
             <select id="frequency" name="frequency">
@@ -68,18 +72,43 @@
             </select><br>
 
             <label for="number">Card Number</label>
-            <input type="text" name="number" id="number"><br>
+            <input type="text" name="number" id="number" required><br>
 
             <label for="month">Expiry Date</label>
-            <input class="date" type="text" name="month' id="month"> /
-            <input class= "date" type="text" name="year" id="year"><br>
+            <input class="date" type="text" name="month" id="month" required> /
+            <input class= "date" type="text" name="year" id="year" required><br>
 
             <label for="cvv">CVV/CVV2</label>
-            <input class="date" type="text" name="cvv" id="cvv"><br>
+            <input class="date" type="text" name="cvv" id="cvv" required><br>
 
-            <input type="submit">
+            <input type="button" value="Donate" id="submitBtn">
           </form>
         </div>
+      </div>
+
+      <div id="accordion">
+        <h3>Why should I donate?</h3>
+          <div>
+            <p>We humans consume all, take all and use up the earth's resources as fast as we can, without thought to the animals who share our world.
+              Therefore, we should give to the animals because they are always struggling to survive. Many animals in Malaysia, as shown in the video,
+              are going extinct due to human activities such as poaching or destruction of their habitats. Your donations will allow more protection of
+              these beloved animals.</p>
+          </div>
+        <h3>Where do my donations go?</h3>
+          <div>
+            <p>Your donations will go straight to WWF-Malaysia, a non-profit organisation, determined in maintaining and protecting the well-beings of
+                animals in Malaysia. Established in 1972, WWF-Malaysia is part of WWF, the international conservation organisation. Working to sustain
+                the natural world for the benefit of people and wildlife, WWF-Malaysia’s efforts to conserve nature focus on six major goals - forests,
+                oceans, wildlife, food, climate and energy, as well as freshwater – and three key drivers of environmental problems – markets, finance and governance.</p>
+          </div>
+        <h3>Top Recent Donors</h3>
+          <div>
+            <ol>
+              <li>Sam Yang RM1000 Monthly</li>
+              <li>Ma Gee RM800 Monthly</li>
+              <li>Go Reng RM3000 One-time</li>
+            </ol>
+          </div>
       </div>
     </div>
 
@@ -95,7 +124,7 @@
         </tr>
 
         <tr>
-          <td><a href=""><strong>About Us</strong></a></td>
+          <td><a href="About Us.html"><strong>About Us</strong></a></td>
           <td>
             <a href="http://airasia.com">Flights</a> <br>
 
@@ -117,13 +146,78 @@
     </div>
 
     <script type="text/javascript">
-      var videoHeight = document.getElementById('video-container').style.height;
-      var formHeight = document.getElementById('form-container').style.height;
+      $(function() {
+        $("#accordion").accordion();
+      });
+      var submitBtn = document.getElementById("submitBtn");
+      var form = document.getElementById("form")
+      var ele = ['name','email','amount','number','month','year','cvv'];
 
-      if(videoHeight<formHeight){
-        document.getElementById('video-container').style.height = formHeight;
-      }else{
-        document.getElementById('form-container').style.height = videoHeight;
+      function hasNumber(myString) {
+        return /\d/.test(myString);
+      }
+
+      submitBtn.onclick = function(){
+        var empty = []
+        var alertString = "";
+        for(el of ele){
+          console.log(el);
+          if(document.getElementById(el).value.length == 0){
+            empty.push(el);
+          }
+
+          if(document.getElementById(el).value.length != 0){
+            document.getElementById(el).style.removeProperty("border");
+          }
+        }
+        for(el of empty){
+          document.getElementById(el).style.border = "1px solid red";
+        }
+
+        if(empty.length == 0){
+          if(document.getElementById("email").value.includes('@') == false){
+            alertString += "\n Insert a valid email";
+          }
+
+          let isnum = /^\d+$/.test(document.getElementById("amount").value);
+
+          if(isnum == false){
+            alertString += "\n Insert a valid amount (whole numbers)";
+          }
+
+          isnum = /^\d+$/.test(document.getElementById("number").value);
+
+          if(isnum == false|| document.getElementById("number").value.length != 16){
+            alertString += "\n Insert a valid 16 digit card number (no spaces)";
+          }
+
+          isnum = /^\d+$/.test(document.getElementById("month").value);
+
+          if(isnum == false || document.getElementById("month").value.length != 2){
+            alertString += "\n Insert a valid month (format: MM)";
+          }
+
+          isnum = /^\d+$/.test(document.getElementById("year").value);
+          if(isnum == false || document.getElementById("year").value.length != 2){
+            alertString += "\n Insert a valid year (format: YY)";
+          }
+
+          isnum = /^\d+$/.test(document.getElementById("cvv").value);
+
+          if(isnum == false || document.getElementById("cvv").value.length != 3){
+            alertString +="\n Insert a valid 3 digit CVV";
+          }
+
+          if(alertString.length !=0){
+            console.log(alertString);
+            alert(alertString);
+          }
+
+        }
+
+        if(empty.length == 0 && alert.length == 0){
+          form.submit();
+        }
       }
     </script>
   </body>

@@ -28,6 +28,7 @@ video{
   margin-top: 30px;
   height:430px;
   clear: both;
+  padding-bottom: 30px;
 }
 
 #form-container{
@@ -62,12 +63,13 @@ input{
   margin-top: 15px;
 }
 
-input[type="submit"]{
+input[type="button"]{
   position: relative;
   left:50%;
   transform: translateX(-70%);
   width: 25%;
 }
+
 
 select{
   width: 20%;
