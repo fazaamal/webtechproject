@@ -19,20 +19,23 @@ p{
   top: 50%;
   transform: translateY(-50%);
   float: left;
-  width:55%;
+  display: block;
 }
 
 video{
   margin-left: 2%;
   margin-right: 3%;
-  width:100%;
+  width: 600px;
 }
 
 #container{
-  margin-top: 40px;
-  height:430px;
+  width: 1170px;
   clear: both;
-  padding-bottom: 30px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
+  height: 400px;
 }
 
 #form-container{
@@ -40,11 +43,12 @@ video{
   top: 50%;
   transform: translateY(-50%);
   background-color: #ffffff;
-  margin-left: 2.5%;
-  width:41%;
+  margin-left: 30px;
+  width: 500px;
   border-radius: 25px;
   border: 4px solid black;
   float:left;
+  display: block;
 }
 
 form{
@@ -74,7 +78,9 @@ input[type="button"]{
   width: 25%;
 }
 
+
 #accordion{
+  clear: both;
   margin-top: 20px;
 }
 
