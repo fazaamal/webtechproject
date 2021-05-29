@@ -1,3 +1,11 @@
+#content{
+  margin-right: 8%;
+  margin-left: 8%;
+
+}
+
+
+
 #title1{
   font-family: sans-serif;
   display: block;
@@ -59,5 +67,27 @@
 
   border: 3px solid ;
   background-color: yellow;
+}
+.buttons img{
+  float: left;
+  width: 25px;
+  height: 25px;
+  padding: 10px;
+}
+.buttons p{
+  displa: inline-block;
+  font-size: 20px;
+  padding-bottom: : 40px;
+}
+
+#button1{
+
+}
+
+#button2{
+
+}
+
+#button3{
 
 }
