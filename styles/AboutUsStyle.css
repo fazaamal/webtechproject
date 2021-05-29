@@ -32,6 +32,9 @@
   border: 2px solid ;
   background-color: white;
 }
+.textbox p{
+  font-size: 1.1vw;
+}
 #textbox1{
   display: block;
   margin-top: 0.4%;
@@ -86,7 +89,7 @@
 }
 .buttons p{
   display: inline-block;
-  font-size: 1vw;
+  font-size: 1.1vw;
   padding-bottom: 33vw;
 }
 
