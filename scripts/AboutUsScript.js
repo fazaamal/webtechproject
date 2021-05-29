@@ -41,6 +41,17 @@ var button2 = document.getElementById('button2');
   button2.onmouseout = function(){
     button2.style.backgroundColor = "yellow";
   }
+  button2.onclick = function(){
+    if (textbox2.style.display === 'none')
+    {
+      textbox2.style.display = 'block';
+    }
+    else
+    {
+      textbox2.style.display = 'none';
+    }
+
+  }
 
 var button3 = document.getElementById('button3');
 
@@ -50,6 +61,7 @@ var button3 = document.getElementById('button3');
   button3.onmouseout = function(){
     button3.style.backgroundColor = "yellow";
   }
+
 
 
 
