@@ -65,12 +65,12 @@ var textbox3 = document.getElementById('textbox3');
     button3.onmouseout = function(){
       button3.style.backgroundColor = "yellow";
     }
-    button3.onclick = function(){
-      if (textbox3.style.display === 'none')
-        {
-         textbox3.style.display = 'block';
-         textbox1.style.display = 'none';
-        }
+    // button3.onclick = function(){
+    //   if (textbox3.style.display === 'none')
+    //     {
+    //      textbox3.style.display = 'block';
+    //      textbox1.style.display = 'none';
+    //     }
       // else
       //   {
       //    textbox3.style.display = 'none';
