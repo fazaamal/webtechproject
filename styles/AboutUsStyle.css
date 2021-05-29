@@ -1,10 +1,7 @@
 #content{
   margin-right: 8%;
   margin-left: 8%;
-
 }
-
-
 
 #title1{
   font-family: sans-serif;
@@ -75,9 +72,9 @@
   padding: 10px;
 }
 .buttons p{
-  displa: inline-block;
-  font-size: 20px;
-  padding-bottom: : 40px;
+  display: inline-block;
+  font-size: 1vw;
+  padding-bottom: 0.4vw;
 }
 
 #button1{
