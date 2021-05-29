@@ -10,6 +10,10 @@
   clear: both;
 }
 
+p{
+  margin-bottom: 40px;
+}
+
 #video-container{
   position: relative;
   top: 50%;
@@ -25,7 +29,7 @@ video{
 }
 
 #container{
-  margin-top: 30px;
+  margin-top: 40px;
   height:430px;
   clear: both;
   padding-bottom: 30px;
@@ -68,6 +72,10 @@ input[type="button"]{
   left:50%;
   transform: translateX(-70%);
   width: 25%;
+}
+
+#accordion{
+  margin-top: 20px;
 }
 
 
