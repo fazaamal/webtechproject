@@ -35,45 +35,50 @@
       <h1 id="Placestovisit" > Places to visit </h1>
       <p style="text-align: center">Find out more about Malaysia's best attractions!</p>
 
-      <div class="box" id="box1"><br>
-        <div id="Place 1" class="details">
-          <strong style="font-size: 20px">Sunway Lagoon</strong><br>
-            <div class="content">
-              <img src="images/Sunway Lagoon.jpg">
-            </div>
-          <a href="Places_1.html">Click here for more</a>
+      <a href="Places_1.html">
+        <div class="box" id="box1"><br>
+          <div id="Place 1" class="details">
+            <strong style="font-size: 20px">Sunway Lagoon</strong><br>
+              <div class="content">
+                <img src="images/Sunway Lagoon.jpg">
+              </div>
+          </div>
         </div>
-      </div>
+      </a>
 
-      <div class="box" id="box2"><br>
-        <div id="Place 2" class="details">
-          <strong style="font-size: 20px">Petronas Twin Towers</strong><br>
-            <div class="content">
-              <img src="images/KLCC Tower.jpg">
-            </div>
-          <a href="Places_2.html">Click here for more</a>
-        </div>
-      </div>
+      <a href="Places_2.html">
+        <div class="box" id="box2"><br>
+          <div id="Place 2" class="details">
+            <strong style="font-size: 20px">Petronas Twin Towers</strong><br>
+              <div class="content">
+                <img src="images/KLCC Tower.jpg">
+              </div>
 
-      <div class="box" id="box3"><br>
-        <div id="Place 3" class="details">
-          <strong style="font-size: 20px">Pangkor Island</strong><br>
-            <div class="content">
-              <img src="images/Pangkor island img1.jpg">
-            </div>
-          <a href="Places_3.html">Click here for more</a>
+          </div>
         </div>
-      </div>
+      </a>
 
-      <div class="box" id="box4"><br>
-        <div id="Place 3" class="details">
-          <strong style="font-size: 20px">Genting Highlands</strong><br>
-            <div class="content">
-              <img src="images/Genting Highland.jpg">
-            </div>
-          <a href="Places_4.html">Click here for more</a>
+      <a href="Places_3.html">
+        <div class="box" id="box3"><br>
+          <div id="Place 3" class="details">
+            <strong style="font-size: 20px">Pangkor Island</strong><br>
+              <div class="content">
+                <img src="images/Pangkor island img1.jpg">
+              </div>
+          </div>
         </div>
-      </div>
+      </a>
+
+      <a href="Places_4.html">
+        <div class="box" id="box4"><br>
+          <div id="Place 3" class="details">
+            <strong style="font-size: 20px">Genting Highlands</strong><br>
+              <div class="content">
+                <img src="images/Genting Highland.jpg">
+              </div>
+          </div>
+        </div>
+      </a>
 
     </div>
 
@@ -109,5 +114,40 @@
         </tr>
       </table>
     </div>
+
+    <script type="text/javascript">
+      var box1 = document.getElementById('box1');
+      box1.onmouseover = function(){
+        box1.style.backgroundColor = "#d1cbcb";
+      }
+      box1.onmouseout = function(){
+        box1.style.backgroundColor = "#ffffff";
+      }
+
+      var box2 = document.getElementById('box2');
+      box2.onmouseover = function(){
+        box2.style.backgroundColor = "#d1cbcb";
+      }
+      box2.onmouseout = function(){
+        box2.style.backgroundColor = "#ffffff";
+      }
+
+      var box3 = document.getElementById('box3');
+      box3.onmouseover = function(){
+        box3.style.backgroundColor = "#d1cbcb";
+      }
+      box3.onmouseout = function(){
+        box3.style.backgroundColor = "#ffffff";
+      }
+
+      var box4 = document.getElementById('box4');
+      box4.onmouseover = function(){
+        box4.style.backgroundColor = "#d1cbcb";
+      }
+      box4.onmouseout = function(){
+        box4.style.backgroundColor = "#ffffff";
+      }
+
+    </script>
   </body>
 </html>
