@@ -21,14 +21,14 @@ var textbox1 = document.getElementById('textbox1');
     button1.style.backgroundColor = "yellow";
   }
   button1.onclick = function(){
-    // if (textbox1.style.display === 'none')
-    // {
-    //   textbox1.style.display = 'block';
-    // }
-    // else
-    // {
+    if (textbox1.style.display === 'none')
+    {
+      textbox1.style.display = 'block';
+    }
+    else
+    {
       textbox1.style.display = 'none';
-    // }
+    }
 
   }
 
