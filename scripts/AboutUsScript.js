@@ -24,13 +24,18 @@ var textbox1 = document.getElementById('textbox1');
     if (textbox1.style.display === 'none')
     {
       textbox1.style.display = 'block';
+      // textbox1.style.backgroundColor = 'green';
+      // textbox1.style.font-weight = 'bold';
+
       textbox2.style.display = 'none';
+      // textbox2.style.backgroundColor = 'yellow';
+      // textbox2.style.font-weight = 'normal';
+
     }
     else
     {
       textbox1.style.display = 'none';
     }
-
   }
 
 
@@ -47,8 +52,14 @@ var textbox2 = document.getElementById('textbox2');
     if (textbox2.style.display === 'none')
     {
       textbox2.style.display = 'block';
+      // textbox2.style.backgroundColor = 'green';
+      // textbox2.style.font-weight = 'bold';
+
       textbox1.style.display = 'none';
-    }
+    //   textbox1.style.backgroundColor = 'yellow';
+    //   textbox1.style.font-weight = 'normal';
+    //
+    }  
     else
     {
       textbox2.style.display = 'none';
