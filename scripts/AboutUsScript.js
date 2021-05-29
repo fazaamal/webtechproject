@@ -11,10 +11,10 @@ button1.onmouseout = function(){
 }
 
 button2.onmouseover = function(){
-  button3.style.backgroundColor = "#d1cbcb";
+  button2.style.backgroundColor = "#d1cbcb";
 }
 button2.onmouseout = function(){
-  button3.style.backgroundColor = "yellow";
+  button2.style.backgroundColor = "yellow";
 }
 
 button3.onmouseover = function(){
