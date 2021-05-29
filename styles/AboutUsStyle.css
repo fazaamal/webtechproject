@@ -33,6 +33,7 @@
   background-color: white;
 }
 #textbox1{
+  display: block;
   margin-top: 0.4%;
   margin-left: 2.8%;
   margin-right: 1%;
