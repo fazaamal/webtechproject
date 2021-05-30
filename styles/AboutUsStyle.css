@@ -24,6 +24,7 @@
 }
 
 .textbox{
+  border: 2px solid;
   width: 70%;
   height: 20vw;
   box-sizing: border-box;
@@ -35,7 +36,6 @@
   font-size: 1.1vw;
 }
 #textbox1{
-  border: 2px solid ;
   display: block;
   border-radius: 25px;
   margin-top: 0.4%;
@@ -47,10 +47,8 @@
   padding-top: 0.2%
 }
 #textbox2{
-  border: 1px solid ;
   display: none;
   height: 37vw;
-  border: 3px;
   /* flex-direction: column;
   flex-wrap: nowrap; */
   margin-top: 0.4%;
