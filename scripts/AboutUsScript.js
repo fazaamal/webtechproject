@@ -40,8 +40,7 @@ button2.onmouseout = function(){
   button2.style.backgroundColor = "yellow";
 }
 button2.onclick = function(){
-  textbox2.style.display = 'flex';
-
+  textbox2.style.display = 'block';
   textbox1.style.display = 'none';
   textbox3.style.display = 'none';
   arrow2.src = 'images/arrowleft.png';

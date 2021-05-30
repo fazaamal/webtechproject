@@ -51,14 +51,25 @@
       </div>
 
       <div class="textbox" id="textbox2">
-         <div class = 'person1'><p>test1</p> </div>
-         <div class = 'person2'> <p>test2</p></div>
-         <div>sdfsfdsfdsfd </div>
-         <div> <fsdsdfsdfdsffsd></fsdsdfsdfdsffsd></div>
+
       </div>
 
       <div class="textbox" id="textbox3">
-         <p>Headquarters</p>
+        <h3> Google Maps </h3>
+        <div id="map">
+           <script>
+           function initMap(){
+             let EMHeadquarters = {lat:3.219944766337792, lng:, 101.73901313160127;
+             let map = new google.maps.Map(
+               document.getElementById('map'), {zoom: 4, center: EMHeadquarters}
+             );
+             let marker =new google.maps.Marker({position: EMHeadquarters, map: map});
+
+           }
+           </script>
+        </div>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA79KFenw18sAEVftJNadIdOuaM9CQaHKo&callback=initMap&libraries=&v=weekly"
+          ></script>
       </div>
 
 
