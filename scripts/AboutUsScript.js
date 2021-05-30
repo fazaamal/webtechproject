@@ -1,16 +1,3 @@
-// var textbox1 = document.getElementById('textbox1');
-//
-// function displayFunction() {
-//   if (textbox1.style.display === 'none')
-//   {
-//     textbox1.style.display = 'block';
-//   }
-//   else
-//   {
-//     textbox1.style.display = 'none';
-//   }
-// }
-
 var button1 = document.getElementById('button1');
 var textbox1 = document.getElementById('textbox1');
 var arrow1 = document.getElementById('arrow1');
@@ -24,8 +11,6 @@ button1.onmouseout = function(){
 }
 button1.onclick = function(){
   textbox1.style.display = 'block';
-  // textbox1.style.backgroundColor = 'green';
-  // textbox1.style.font-weight = 'bold';
 
   textbox2.style.display = 'none';
   textbox3.style.display = 'none';
@@ -36,8 +21,7 @@ button1.onclick = function(){
   header1.style.fontWeight = 'bold'
   header2.style.fontWeight = 'normal'
   header3.style.fontWeight = 'normal'
-  // textbox2.style.backgroundColor = 'yellow';
-  // textbox2.style.font-weight = 'normal';
+
 }
 
 
@@ -54,8 +38,6 @@ button2.onmouseout = function(){
 }
 button2.onclick = function(){
   textbox2.style.display = 'block';
-  // textbox2.style.backgroundColor = 'green';
-  // textbox2.style.font-weight = 'bold';
 
   textbox1.style.display = 'none';
   textbox3.style.display = 'none';
@@ -66,9 +48,6 @@ button2.onclick = function(){
   header2.style.fontWeight = 'bold'
   header1.style.fontWeight = 'normal'
   header3.style.fontWeight = 'normal'
-  //   textbox1.style.backgroundColor = 'yellow';
-  //   textbox1.style.font-weight = 'normal';
-  //
 }
 
 var button3 = document.getElementById('button3');
@@ -82,20 +61,9 @@ button3.onmouseover = function(){
 button3.onmouseout = function(){
   button3.style.backgroundColor = "yellow";
 }
-// button3.onclick = function(){
-//   if (textbox3.style.display === 'none')
-//     {
-//      textbox3.style.display = 'block';
-//      textbox1.style.display = 'none';
-//     }
-  // else
-  //   {
-  //    textbox3.style.display = 'none';
-  //   }
+
 button3.onclick = function(){
   textbox3.style.display = 'block';
-  // textbox2.style.backgroundColor = 'green';
-  // textbox2.style.font-weight = 'bold';
 
   textbox1.style.display = 'none';
   textbox2.style.display = 'none';
@@ -106,17 +74,4 @@ button3.onclick = function(){
   header3.style.fontWeight = 'bold'
   header2.style.fontWeight = 'normal'
   header1.style.fontWeight = 'normal'
-  //   textbox1.style.backgroundColor = 'yellow';
-  //   textbox1.style.font-weight = 'normal';
-  //
 }
-
-
-// var button3 = document.getElementById('button3');
-//
-//   button3.onmouseover = function(){
-//     button3.style.backgroundColor = "#d1cbcb";
-//   }
-//   button3.onmouseout = function(){
-//     button3.style.backgroundColor = "yellow";
-//   }
