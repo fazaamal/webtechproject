@@ -11,17 +11,20 @@ button1.onmouseout = function(){
 }
 button1.onclick = function(){
   textbox1.style.display = 'block';
-
   textbox2.style.display = 'none';
   textbox3.style.display = 'none';
+
   arrow1.src = 'images/arrowleft.png';
   arrow2.src = 'images/arrowright.png';
   arrow3.src = 'images/arrowright.png';
 
-  header1.style.fontWeight = 'bold'
-  header2.style.fontWeight = 'normal'
-  header3.style.fontWeight = 'normal'
+  header1.style.fontWeight = 'bold';
+  header2.style.fontWeight = 'normal';
+  header3.style.fontWeight = 'normal';
 
+  button1.style.borderWidth = '3px';
+  button2.style.borderWidth = '1px';
+  button3.style.borderWidth = '1px';
 }
 
 
@@ -48,6 +51,10 @@ button2.onclick = function(){
   header2.style.fontWeight = 'bold'
   header1.style.fontWeight = 'normal'
   header3.style.fontWeight = 'normal'
+
+  button2.style.borderWidth = '3px';
+  button1.style.borderWidth = '1px';
+  button3.style.borderWidth = '1px';
 }
 
 var button3 = document.getElementById('button3');
@@ -72,6 +79,10 @@ button3.onclick = function(){
   arrow2.src = 'images/arrowright.png';
 
   header3.style.fontWeight = 'bold'
-  header2.style.fontWeight = 'normal'
   header1.style.fontWeight = 'normal'
+  header2.style.fontWeight = 'normal'
+
+  button3.style.borderWidth = '3px';
+  button1.style.borderWidth = '1px';
+  button2.style.borderWidth = '1px';
 }
