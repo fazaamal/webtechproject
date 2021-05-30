@@ -49,6 +49,7 @@
 #textbox2{
   border: 1px solid ;
   display: none;
+  height: 37vw;
   border: 3px;
   /* flex-direction: column;
   flex-wrap: nowrap; */
@@ -60,9 +61,16 @@
   padding: 2%;
   padding-top: 0.2%
 }
+#textbox2 h2{
+  text-color: green;
+  text-align: center;
+  text-shadow: 1px;
+}
 
-#textbox 2 img{
-  
+#textbox2 img{
+  width:55vw;
+  height:auto;
+
 }
 
 #textbox3{
@@ -88,7 +96,6 @@
 
   box-sizing: border-box;
   float: right;
-
 
   background-color: yellow;
 
