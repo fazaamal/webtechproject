@@ -60,24 +60,10 @@
   padding: 2%;
   padding-top: 0.2%
 }
-#textbox2 > div {
-  width: auto;
-  height: 7vw;
-  border: 1px #ccc solid;
-  background-color: '#F0F8FF' !important;
+
+#textbox 2 img{
+  
 }
-.person1{
-  background-color: '#F0F8FF' !important;
-  font-size: 5vw;
-}
-.person2{
-  background-color: 'red';
-}
-/* #textbox2 > div #person2 {
-  width: 15vw;
-  height: 7vw;
-  background-color: 'red';
-} */
 
 #textbox3{
   display: none;
