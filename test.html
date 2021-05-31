@@ -1,5 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    wutde
+    <div id="map">
+       <script>
+         function initMap(){
+           let SunwayLagoon = {lat:3.0716192775704187, lng:101.60546383134604};
+           let map = new google.maps.Map(
+             document.getElementById('map'), {zoom: 4, center: SunwayLagoon}
+           );
+           let marker =new google.maps.Marker({position: SunwayLagoon, map: map});
+
+         }
+       </script>
+    </div>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDKGgciUxDY9_b7K8Tpows5DTI_b8wfyKs"
+      ></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -111,4 +153,4 @@ float:bottom- down;}
 </div>
 </div>
 </body>
-</html>
+</html> -->
