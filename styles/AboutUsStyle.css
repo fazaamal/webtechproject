@@ -81,7 +81,12 @@
   padding: 2%;
   padding-top: 0.2%
 }
+#textbox3 h3{
+  font-size: 1.6vw;
+  margin-bottom: 0.01vh;
+  padding-bottom: 0.1vh;
 
+}
 .buttons{
   display:flex;
   width: 20%;
