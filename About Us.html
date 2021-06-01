@@ -10,6 +10,26 @@
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/AboutUsStyle.css">
 
+    <script>
+      let map;
+      let marker;
+
+      function initMap() {
+        map = new google.maps.Map(document.getElementById("map"), {
+          center: { lat: 3.1595511671527023, lng: 101.71405950183203 },
+          zoom: 16,
+        });
+        marker = new google.maps.Marker({
+          position: { lat: 3.1595511671527023, lng: 101.71405950183203 },
+          map: map
+        });
+      }
+
+
+
+
+    </script>
+
 </head>
 
 <body>
@@ -56,21 +76,16 @@
       </div>
 
       <div class="textbox" id="textbox3">
-        <h3> Google Maps </h3>
-        <div id="map">
-            <script>
-             function initMap(){
-               let EMHeadquarters = {lat:3.219944766337792, lng:, 101.73901313160127};
-               let map = new google.maps.Map(
-                 document.getElementById('map'), {zoom: 4, center: EMHeadquarters}
-               );
-               let marker =new google.maps.Marker({position: EMHeadquarters, map: map});
+        <h3> Visit our main branch! </h3>
+        <p>Lot L1 - 13, Avenue K, Jalan Ampang,<br>
+           Kampung Baru, 50450 Kuala Lumpur,<br>
+            Wilayah Persekutuan Kuala Lumpur</p>
+        <div id="map"></div>
+            <script
+              src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA79KFenw18sAEVftJNadIdOuaM9CQaHKo&callback=initMap&libraries=&v=weekly"
+              async
+            ></script>
 
-              }
-            </script>
-        </div>
-        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDKGgciUxDY9_b7K8Tpows5DTI_b8wfyKs&callback=initMap&libraries=&v=weekly"
-          ></script>
       </div>
 
 

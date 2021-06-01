@@ -1,29 +1,44 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
   <head>
-    <meta charset="utf-8">
-    <title></title>
+    <title>Simple Map</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <style type="text/css">
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+
+      /* Optional: Makes the sample page fill the window. */
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script>
+      let map;
+
+      function initMap() {
+        map = new google.maps.Map(document.getElementById("map"), {
+          center: { lat: -34.397, lng: 150.644 },
+          zoom: 8,
+        });
+      }
+    </script>
   </head>
   <body>
+    <div id="map"></div>
 
-    wutde
-    <div id="map">
-       <script>
-         function initMap(){
-           let SunwayLagoon = {lat:3.0716192775704187, lng:101.60546383134604};
-           let map = new google.maps.Map(
-             document.getElementById('map'), {zoom: 4, center: SunwayLagoon}
-           );
-           let marker =new google.maps.Marker({position: SunwayLagoon, map: map});
-
-         }
-       </script>
-    </div>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDKGgciUxDY9_b7K8Tpows5DTI_b8wfyKs"
-      ></script>
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA79KFenw18sAEVftJNadIdOuaM9CQaHKo&callback=initMap&libraries=&v=weekly"
+      async
+    ></script>
   </body>
-</html>
-
+</html
 
 
 
