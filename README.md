@@ -1,9 +1,15 @@
-Group Stars
+Group B
 Prepared by Faza Amal Sophian (2027009)
+
+Members:
+Faza      2027009
+Ramadhani 2029353
+Monjur    2028113
+Aiman     2029589
 
 'Explore Malaysia'
 
-1) Project Description
+Project Description
 
 Our group has chosen to make a website on tourism in Malaysia. It will be called Explore Malaysia and will showcase the different tourist attractions, both natural and man-made, for both foreign and domestic tourists to visit. We aim for our website to be attractive and easy-to-navigate for the users, and will incorporate many of the elements and objects that we have learned to use in class.
 
@@ -15,5 +21,3 @@ Our project supports the Sustainable Development Goals from an environmental sta
 
 As for the website design, we have chosen to go with a large icon style website. This will allow ease-of-use for the visitors and not make it seem overloaded with information. The colours are based off the website's logo, which is mainly made up colours from the Malaysian flag.
 
-2) Project Sitemap
-![Sitemap](images/waterpark.jpg")
