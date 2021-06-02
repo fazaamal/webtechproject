@@ -114,6 +114,9 @@ body{
 #content{
   background-color:rgb(232, 226, 226);
   width: 100%;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #banner{
